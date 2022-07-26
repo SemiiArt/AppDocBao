@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="dataSub"
+            type="com.tuyenhoang.appdocbao.test.ModelSub" />
+    </data>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="25dp"
+        tools:ignore="RedundantNamespace">
+        <TextView
+            android:id="@+id/icon_sub_text"
+            android:textSize="45sp"
+
+            android:textColor="	#FF0000"
+            android:background="@drawable/round_corner_categorytext"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:text="@{dataSub.title,default=`Chính trị`}"
+            android:layout_height="200dp"/>
+    </androidx.cardview.widget.CardView>
+</layout>

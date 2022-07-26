@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "970759983222",
+    "project_id": "loginappdoctruyen",
+    "storage_bucket": "loginappdoctruyen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970759983222:android:20e9d1eb83bd00303d4f57",
+        "android_client_info": {
+          "package_name": "com.tuyenhoang.appdocbao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970759983222-m04ict8rc5br5dk91p6rkrcqshpld3ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrQlWpN-RwDJyqD8HG_oGnRPqImUDLsZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970759983222-m04ict8rc5br5dk91p6rkrcqshpld3ep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
